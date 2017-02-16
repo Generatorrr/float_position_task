@@ -1,0 +1,157 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 1px;
+  min-height: 2000px;
+  font-family: "Myriad Pro";
+  font-size: .75rem;
+}
+
+h1, h2, h3, h4, h5 ,h6, p, figure {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 563px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 199px;
+}
+
+.list1,.list2, .list3 {
+  position: absolute;
+  box-sizing: border-box;
+  min-height: 750px;
+  width: 523px;
+  border: 2.5px solid black;
+}
+
+.list1 {
+  padding: 30px;
+  padding-right: 32px;
+  background-color: #ebebeb;
+  z-index: 5;
+}
+
+.main-article_h1 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-top: 6px;
+  margin-bottom:10px;
+}
+
+.main-article_p {
+  margin-bottom: 20px;
+}
+
+.clear_fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float_left {
+  float: left;
+  margin: 0 21px 15px 2px;
+}
+
+.float_right {
+  float: right;
+  margin-left: 5px;
+}
+
+.jokes {
+  font-size: 0;
+}
+
+.jokes_h2 {
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin-bottom:17px;
+}
+
+.jokes_img {
+	margin-bottom: 15px;
+}
+
+.img_float_left {
+	float: left;
+}
+
+.img_float_right {
+	float: right;
+}
+
+.jokes_descript {
+  font-size: .563rem;
+  clear: both;
+  margin-top: 11px;
+  text-align: center;
+}
+
+.list2 {
+  top: 25px;
+  left: 25px;
+  background-color: #cccccc;
+  z-index: 3;
+}
+
+.list3 {
+  top: 50px;
+  left: 50px;
+  background-color: #acacac;
+  z-index: 1;
+}
+
+.orange, .green, .blue {
+	content: "";
+	position: absolute;
+	height: 35px;
+	width: 120px;
+	border: 2.5px solid black;
+  	border-top-right-radius: 10px;
+  	border-bottom-right-radius: 10px;
+}
+
+.orange {
+	top: 51px;
+	right: -55px;
+	z-index: 6;
+	background-color: #f68e56; 
+}
+
+.green {
+	top: 80px;
+	right: -44px;
+	z-index: 4;
+	background-color: #39b54a;
+}
+
+.blue {
+	top: 109px;
+	right: -33px;
+	z-index: 2;
+	background-color: #00aeef;
+}
+
+.share {
+  position: fixed;
+  box-sizing: border-box;
+  width: 90px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: #fbaf5d;
+  right: 0;
+  bottom: 20%;
+  text-align: center;
+}
+
+.share_h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
